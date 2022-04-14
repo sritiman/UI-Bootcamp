@@ -16,9 +16,6 @@
 .navigator-links{
     display: flex;
     justify-content: space-evenly;
-    text-decoration: none;
-    list-style: none;
-    align-content: center;
 }
 .navigator-links a {
     text-decoration: none;
