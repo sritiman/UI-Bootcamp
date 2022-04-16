@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: assignment3/compare.js
+  checksum: 7fa4fa82721397d884df9628462c0d5f3d4d063c317efe5e4094e6cd312cbe67
+version: ""
