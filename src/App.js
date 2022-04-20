@@ -1,6 +1,6 @@
-
 import './App.css';
 import PageElement from './Components/PageElement';
+import ShowAlertComp from "./Components/ShowAlertComp";
 import {pageElements} from "./shared/pageElements";
 
 function App() {
@@ -14,15 +14,10 @@ function App() {
           </PageElement>
   }
 
-  const renderElements = (pageElements)=> {
-    return pageElements.map((element, index)=> constructPageElement(element, index))
-  }
-
-  return (
-    <div className="App">
-      { renderElements(pageElements)}
-    </div>
-  );
+  return <>
+  <div>{pageElements.map((element, index)=> constructPageElement(element, index))}</div>
+  <ShowAlertComp/>
+  </>
 }
 
 export default App;
